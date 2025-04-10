@@ -1,11 +1,14 @@
+import { RevealOnScroll } from "../RevealOnScroll";
+
 export const About = () => {
     const frontendSkills = ["React", "TailwindCSS", "Bootstrap",];
-    const backendSkills = ["Node.js", "REST API","Django", "MySQL",];
+    const backendSkills = ["Node.js", "REST API","Django", "SQLite", "DigitalOcean"];
     return (
         <section id="about" className="min-h-screen flex items-center justify-center py-20"
         >
+            <RevealOnScroll>
             <div className="max-w-3xl mx-auto px-4">
-                <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-orange-400 to-blue-200 bg-clip-text text-transparent text-center">About Me</h2>
+                <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-orange-400 to-white bg-clip-text text-transparent text-center">About Me</h2>
             
 
             <div className="rounded-xl p-8 border-orange-400 border hover:-translate-y-1 transition-all">
@@ -42,7 +45,22 @@ export const About = () => {
                 </div>
             </div>
             </div>
+            <div className="grid grid-cols-1 md:grid-cols-1 mt-8">
+                <div className="p-6 rounded-xl border-orange-400 border hover:-translate-y-1 transition-all">
+                    <h3 className="text-xl font-bold mb-4 text-center">🏫Education</h3>
+                    <ul className="list-disc list-inside space-y-2">
+                        <li>
+                            <strong> B.S. in Computer Science</strong> - James Madison University (2022-2025)
+                        </li>
+                        <li>
+                            <strong>Relevant Coursework</strong>: Data Structures, Applied Algorithms, Web Development, Computer Systems...
+                        </li>
+                    </ul>
+                </div>
+
             </div>
+            </div>
+            </RevealOnScroll>
         </section>
     );
 }
