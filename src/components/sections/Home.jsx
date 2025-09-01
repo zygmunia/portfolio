@@ -12,8 +12,7 @@ export const Home = () => {
 
             <p className="text-white text-lg mb-8 max-w-lg mx-auto"> 
             I’ve spent the past few years building up my skills in programming, working on projects, 
-            and getting a solid understanding of how software and systems work. 
-            I enjoy learning by doing—whether that’s building something from scratch or digging into how things work behind the scenes.
+            and developing an understanding on how computer systems and software operate.
             </p>
             <div className="flex justify-center space-x-4">
                 <a href="#projects" className="bg-orange-400 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 
