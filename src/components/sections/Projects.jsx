@@ -11,11 +11,12 @@ export const Projects = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="p-6 rounded-xl border border-orange-400 hover:-translate-y-1 hover:border-orange-200/30 hover:
                     shadow-[0_2px_8px_rgba(255, 105, 36, 0.8)] transition-all">
-                    <h3 className="text-xl font-bold mb-2">Virtual Book Club</h3>
-                    <p className="mb-4">Developed a web-based platform using the Django framework to create a virtual book club enabling users to
-                    discover, discuss, track books in a collaborative environment, and review books read.</p>
+                    <h3 className="text-xl font-bold mb-2">Roam.io</h3>
+                    <p className="mb-4">A modern travel planning application that lets users visualize and track their journeys on an interactive 3D globe. 
+                        Built with Next.js for a fast, server-rendered frontend, the app integrates the Google Maps API for detailed location data and routing.
+                        Features include marking visited countries, creating custom itineraries, and exploring destinations directly on a dynamic globe interface.</p>
                     <div className="flex flex-wrap gap-2 mb-4">
-                        {["Django", "SQLite", "DigitalOcean", "REST API"].map((tech,key)=>(
+                        {["Next.js", "Neon", "Vercel", "REST API"].map((tech,key)=>(
                            <span 
                            key = {key}
                            className="bg-orange-400/10 text-orange-400 py-1 px-3 rounded-full text-sm hover:bg-orange-600/20
@@ -25,7 +26,7 @@ export const Projects = () => {
                        ))}
                     </div>
                     <div className="flex justify-between items-center">
-                        <a href="https://www.lithub.live" className="text-orange-400 hover:text-orange-500 transition-colors my-4">View Project → </a>
+                        <a href="https://travel-planner-chi-two.vercel.app/" className="text-orange-400 hover:text-orange-500 transition-colors my-4">View Project → </a>
                     </div>
             </div>
             <div className="p-6 rounded-xl border border-orange-400 hover:-translate-y-1 hover:border-orange-200/30 hover:
